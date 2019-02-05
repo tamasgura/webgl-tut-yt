@@ -31,7 +31,8 @@ var config = {
     ]
   },
   plugins: [new HtmlWebpackPlugin({
-    template: 'index.html'
+    template: 'index.html',
+    js: './gl-matrix.min.js'
   })]
 };
 
